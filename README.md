@@ -33,6 +33,7 @@ A multithreaded C program that simulates a real-time data stream, performs simpl
 ## Overview
 
 In the financial trading industry, profit refers to real-time market analysis and trading platforms that process streaming financial data. These systems handle continuous feeds of price quotes, trade volumes, and market indicators, requiring robust concurrent processing to deliver timely insights and automated trading signals.
+
 **Profit** is a small educational project that implements a producer-consumer pattern with an additional forecasting thread. It generates a random-walk data stream, calculates a moving average forecast from recent real values, and outputs all data (real and forecast) to a CSV file. A Python script then reads the CSV and creates a bar/line plot to compare real values with forecasts.
 
 
